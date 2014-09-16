@@ -56,4 +56,4 @@ The dataset includes the following files:
 - 'UCI HAR Dataset/test/X_test.txt': Test set.
 
 - 'UCI HAR Dataset/test/y_test.txt': Test labels.
-- - 'UCI HAR Dataset/test/subject_test.txt': Subject ID
+- 'UCI HAR Dataset/test/subject_test.txt': Subject ID
