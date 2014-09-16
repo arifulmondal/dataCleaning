@@ -24,6 +24,15 @@ Simple R-script "run_analysis.R" that does the following:
   5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+How run_analysis.R works
+=========
+run_analysis.R would read following data sets from present working directory:
+
+Training data 
+--------------
+"UCI HAR Dataset/train/subject_train.txt" 
+"UCI HAR Dataset/train/X_train.txt"
+"UCI HAR Dataset/train/y_train.txt" 
 
 
 
