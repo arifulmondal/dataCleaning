@@ -28,14 +28,6 @@ How run_analysis.R works
 =========
 run_analysis.R would read following data sets from present working directory:
 
-For each record it is provided:
-======================================
-
-- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-- Triaxial Angular velocity from the gyroscope. 
-- A 561-feature vector with time and frequency domain variables. 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
 
 The dataset includes the following files:
 =========================================
@@ -57,3 +49,13 @@ The dataset includes the following files:
 
 - 'UCI HAR Dataset/test/y_test.txt': Test labels.
 - 'UCI HAR Dataset/test/subject_test.txt': Subject ID
+
+
+For each record it is provided:
+======================================
+
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
