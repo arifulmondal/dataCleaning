@@ -68,4 +68,4 @@ From the completed data set run_analysis.R creates a second, independent tidy da
 About the Code Book
 ========
 
-Code book describes how different activities and transformation done in run_analysis.R resulting data, variables.
+Code book describes how different activities and transformation done in run_analysis.R resulting data, variables created.
