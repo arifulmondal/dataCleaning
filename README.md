@@ -40,19 +40,20 @@ For each record it is provided:
 The dataset includes the following files:
 =========================================
 
-- 'README.txt'
+- 'UCI HAR Dataset/README.txt'
 
-- 'features_info.txt': Shows information about the variables used on the feature vector.
+- 'UCI HAR Dataset/features_info.txt': Shows information about the variables used on the feature vector.
 
-- 'features.txt': List of all features.
+- 'UCI HAR Dataset/features.txt': List of all features.
 
-- 'activity_labels.txt': Links the class labels with their activity name.
+- 'UCI HAR Dataset/activity_labels.txt': Links the class labels with their activity name.
 
-- 'train/X_train.txt': Training set.
+- 'UCI HAR Dataset/train/X_train.txt': Training set.
 
-- 'train/y_train.txt': Training labels.
--  'UCI HAR Dataset/train/subject_train.txt': Subject ID
+- 'UCI HAR Dataset/train/y_train.txt': Training labels.
+- 'UCI HAR Dataset/train/subject_train.txt': Subject ID
 
-- 'test/X_test.txt': Test set.
+- 'UCI HAR Dataset/test/X_test.txt': Test set.
 
-- 'test/y_test.txt': Test labels.
+- 'UCI HAR Dataset/test/y_test.txt': Test labels.
+- - 'UCI HAR Dataset/test/subject_test.txt': Subject ID
