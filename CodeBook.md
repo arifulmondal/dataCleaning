@@ -7,11 +7,15 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 1. Merges the training and the test sets to create one data set "smt_ph_HAR_data" with 563 columns and 10,299 rows.
 2. Extracts only the measurements on the mean and standard deviation for each measurement to get new data "My_SmPH_Data" featur_select_logic<-grepl("*Mean*|*Std*",features_data$V2) to get only 86 features
-3. Uses descriptive activity names to name the activities in the data set: col_names<-c(myFeatures$V2,"Activity","Subject") and colnames(My_SmPH_Data) <- col_names
+3. Uses descriptive activity names to name the activities in the data set: My_SmPH_Data$Activity <-gsub(Int_activity, label,  My_SmPH_Data$Activity) 
 4. Appropriately labels the data set with descriptive variable names. 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject: library(data.table)
+DT <- data.table(My_SmPH_Data)
+tidy_summary_data<-DT[, lapply(.SD,mean), by=list(Activity, Subject)]
 
+At the end it would  Write summaries into flat txt file.
 
+write.table(tidy_summary_data,"tidy_avg_activity.txt", row.name=FALSE) 
 
 Feature Selection 
 =================
