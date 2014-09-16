@@ -13,7 +13,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 DT <- data.table(My_SmPH_Data)
 tidy_summary_data<-DT[, lapply(.SD,mean), by=list(Activity, Subject)]
 
-At the end it would  Write summaries into flat txt file.
+At the end it would  Write summaries into flat txt file "tidy_avg_activity.txt"
 
 write.table(tidy_summary_data,"tidy_avg_activity.txt", row.name=FALSE) 
 
