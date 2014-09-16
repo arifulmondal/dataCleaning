@@ -45,4 +45,11 @@ Test data sets
 
 "UCI HAR Dataset/test/y_test.txt" 
 
+Features 
+--------------
+"UCI HAR Dataset/features.txt"
 
+Activity labels
+--------------
+
+"UCI HAR Dataset/activity_labels.txt"
