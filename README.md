@@ -28,11 +28,15 @@ How run_analysis.R works
 =========
 run_analysis.R would read following data sets from present working directory:
 
-Training data 
+Training data sets
 --------------
 "UCI HAR Dataset/train/subject_train.txt" 
 "UCI HAR Dataset/train/X_train.txt"
 "UCI HAR Dataset/train/y_train.txt" 
 
-
+Test data sets
+--------------
+"UCI HAR Dataset/test/subject_test.txt" 
+"UCI HAR Dataset/test/X_test.txt"
+"UCI HAR Dataset/test/y_test.txt" 
 
