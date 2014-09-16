@@ -28,28 +28,31 @@ How run_analysis.R works
 =========
 run_analysis.R would read following data sets from present working directory:
 
-Training data sets
---------------
-"UCI HAR Dataset/train/subject_train.txt"  
+For each record it is provided:
+======================================
 
-"UCI HAR Dataset/train/X_train.txt"
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
 
-"UCI HAR Dataset/train/y_train.txt" 
+The dataset includes the following files:
+=========================================
 
+- 'README.txt'
 
-Test data sets
---------------
-"UCI HAR Dataset/test/subject_test.txt"
+- 'features_info.txt': Shows information about the variables used on the feature vector.
 
-"UCI HAR Dataset/test/X_test.txt"
+- 'features.txt': List of all features.
 
-"UCI HAR Dataset/test/y_test.txt" 
+- 'activity_labels.txt': Links the class labels with their activity name.
 
-Features 
---------------
-"UCI HAR Dataset/features.txt"
+- 'train/X_train.txt': Training set.
 
-Activity labels
---------------
+- 'train/y_train.txt': Training labels.
+-  'UCI HAR Dataset/train/subject_train.txt': Subject ID
 
-"UCI HAR Dataset/activity_labels.txt"
+- 'test/X_test.txt': Test set.
+
+- 'test/y_test.txt': Test labels.
