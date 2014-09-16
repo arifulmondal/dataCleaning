@@ -65,3 +65,5 @@ About Tidy Data:
 From the completed data set run_analysis.R creates a second, independent tidy data  "tidy_avg_activity.txt"  with the average of each variable for each activity and each subject
 
 
+About the Code Book
+========
